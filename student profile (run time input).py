@@ -1,0 +1,10 @@
+print("\nEnter student details\n")
+a=int(input("ID num: "))
+b=input("Name: ")
+c=int(input("Mobile num: " ))
+d=input("Mail ID: ")
+e=input("College: ")
+f=input("branch: ")
+
+print("\nSTUDENT PROFILE RECORD\n")
+print("Student Name: ",b.capitalize(),"\nID Number: ",a,"\nMobile Number: ",c,"\nMail ID: ",d,"\nCollege: ",e.capitalize(),"\nBranch: ",f.upper())
